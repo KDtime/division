@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>Builds</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="header__nav">
+                <a class="logo" href="index.html">
+                    <img src="assets/img/logo/SHD_Devices.jpg" width="100" height="100" alt="логотип">
+                </a>
+                <button class="burger" type="button">
+                    <div class="burger__line"></div>
+                </button>
+                <ul class="menu">
+                    <li class="menu__item" href="#">
+                        <a link rel="import" href="index.html">
+                            На главную
+                        </a>
+                    </li>
+                    <li class="menu__item" href="#">
+                        <a class="menu__link" href="#">
+                            Рейды
+                        </a>
+                    </li>
+                    <li class="menu__item" href="#">
+                        <a class="menu__link" href="#">
+                            Миссии
+                        </a>
+                    </li>
+                    <li class="menu__item" href="#">
+                        <a class="menu__link" href="#">
+                            Небоскрёб "Саммит"
+                        </a>
+                    </li>
+                    <li class="menu__item" href="#">
+                        <a class="menu__link" href="#">
+                            АЭС
+                        </a>
+                    </li>
+                    <li class="menu__item" href="#">
+                        <a class="menu__link" href="#">
+                            ТЗ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero-section" style="background-image: url('../assets/img/the_division_2_title.jpg')">
+            <div class="container">
+
+            </div>
+        </section>
+
+        <section class="builds">
+            <div class="container">
+                <h2 class="builds__title">
+                    PVE
+                </h2>
+                <div class="builds__box">
+                    <ul class="builds__filters">
+                        <li class="builds__filter">
+                            <button class="builds__btn" type="button" data-filter=".category-a">
+                                Все билды
+                            </button>
+                        </li>
+                        <li class="builds__filter">
+                            <button class="builds__btn" type="button" data-filter=".category-b">
+                                Танк
+                            </button>
+                        </li>
+                        <li class="builds__filter">
+                            <button class="builds__btn" type="button" data-filter=".category-c">
+                                Дамаг
+                            </button>
+                        </li>
+                        <li class="builds__filter">
+                            <button class="builds__btn" type="button" data-filter=".category-d">
+                                Сапорт
+                            </button>
+                        </li>
+                        <li class="builds__filter">
+                            <button class="builds__btn" type="button" data-filter=".category-e">
+                                Скилы/навыки
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="builds__list">
+                    <li class="builds__item mix category-a category-b">
+                        <img class="build__img" src="pages/builds-filters/img-filter/bastion.png" width="150" height="150" alt="tank">
+                        <a class="builds__descr" href="bastion.html">
+                            Показать билд
+                        </a>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/aces_and_eights.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/tip_of_the_spear.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/negotiators_dilemma.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/ongoing_directive.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-d">
+                        <img class="build__img" src="pages/builds-filters/img-filter/true_patriot.png" width="150" height="150" alt="support">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-d category-e">
+                        <img class="build__img" src="pages/builds-filters/img-filter/hard_wired.png" width="150" height="150" alt="Skills">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/strikers_battlegear.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a  category-b category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/system_corruption.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-d category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/eclipse_protocol.png" width="150" height="150" alt="Skills">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-d category-e">
+                        <img class="build__img" src="pages/builds-filters/img-filter/future_initiative.png" width="150" height="150" alt="Skills">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/hunters_fury.png" width="" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-d category-e">
+                        <img class="build__img" src="pages/builds-filters/img-filter/rigger.png" width="150" height="150" alt="Skills">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/Heartbreaker.png" width="150" height="150" alt="DD">
+                        <div class="builds__descr">
+                            Показать билд
+                        </div>
+                    </li>
+                    <li class="builds__item mix category-a category-c">
+                        <img class="build__img" src="pages/builds-filters/img-filter/umbra_initiative.png" width="150" height="150" alt="DD">
+                        <a class="builds__descr" href="https://www.youtube.com/watch?v=QLxqEADKlr8">
+                            Показать билд
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="../js/mixitup.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

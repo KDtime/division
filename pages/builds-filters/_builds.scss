@@ -1,0 +1,116 @@
+.builds {
+    padding-top: 140px;
+    padding-bottom: 40px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &__filters {
+        display: flex;
+        column-gap: 25px;
+        margin: 0 auto;
+    }
+    &__btn {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-style: 12px;
+        letter-spacing: 2px;
+        color: rgb(58, 53, 53);
+        position: relative;
+        line-height: 2;
+        padding: 5px;
+        padding-top: 0;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(7, 150px);
+        gap: 40px 20px;
+        justify-content: center;
+    }
+    &__item {
+        position: relative;
+    }
+}
+
+.active.builds__btn::after,
+.builds__btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(194, 43, 43);
+    transition: width 0.4s;
+}
+
+.active.builds__btn::after,
+.builds__btn::after {
+    width: 100%;
+}
+
+.builds__item:hover .builds__descr {
+    opacity: 1;
+    visibility: visible;
+}
+
+.builds__descr {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(34, 36, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: opacity 0.2s, visibility;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==============================================
+.build__img {
+    background-color: rgb(43, 107, 49);
+}
+
+// ==============================================
+
+

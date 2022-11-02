@@ -1,0 +1,227 @@
+.about-for-builds {
+    padding-top: 140px;
+    padding-bottom: 40px;
+    background-color: bisque;
+    // &__text {
+
+    // }
+
+}
+
+
+
+.magic {
+    background-color: #F6F8FA;
+    &__text {
+        font-size: 18px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px auto 80px;
+    }
+
+    &__background {
+        max-width: 1120px;
+        width: 100%;
+        height: 840px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/Screenshot.jpg');
+    }
+    &__content {
+        max-width: 470px;
+    }
+
+    &__background-1 {
+        max-width: 1120px;
+        width: 100%;
+        height: 840px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/Screenshot-res-1.jpg');
+    }
+    &__content-1 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    &__background-2 {
+        max-width: 1120px;
+        width: 100%;
+        height: 840px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/Screenshot-res-2.jpg');
+    }
+    &__content-2 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    &__background-3 {
+        max-width: 1120px;
+        width: 100%;
+        height: 840px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/Screenshot-res-2.jpg');
+    }
+    &__content-3 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    &__background-4 {
+        max-width: 923px;
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/Mask.jpg');
+    }
+    &__content-4 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    &__background-5 {
+        max-width: 923px;
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/Gloves.jpg');
+    }
+    &__content-5 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    &__background-6 {
+        max-width: 827px;
+        width: 100%;
+        height: 607px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/knees.jpg');
+    }
+    &__content-6 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    &__background-7 {
+        max-width: 827px;
+        width: 100%;
+        height: 607px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/holster.jpg');
+    }
+    &__content-7 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+
+    
+    &__background-8 {
+        max-width: 1009px;
+        width: 100%;
+        height: 607px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/backpack.jpg');
+    }
+    &__content-8 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+    &__title-1 {
+        margin-top: 20px;
+    
+    }
+
+
+    &__background-9 {
+        max-width: 827px;
+        width: 100%;
+        height: 607px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-image: url('/pages/builds-filters/bastion/body.jpg');
+    }
+    &__content-9 {
+        max-width: 470px;
+        margin-right: 71px;
+    }
+    &__title-2 {
+        margin-top: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .magic__content-4-text {
+        padding-top: 20px;
+        color: rgb(151, 74, 74);
+    }
+
+
+
+    &__title {
+        margin-bottom: 67px;
+    
+    }
+    &__text p:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}
+
